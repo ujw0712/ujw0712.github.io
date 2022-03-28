@@ -1,3 +1,4 @@
+a { color: #000; }
 .resume {
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 300;
@@ -6,7 +7,7 @@
   line-height: 1.8
 }
 
-.blue {
+.color1 {
   color: #003399;
 }
 
@@ -18,14 +19,10 @@
   max-height: 320px;
 }
 
-.footer-cover {
-  background-color: #f5f5f5;
-  padding-left: 0;
-  padding-right: 0;
-  margin-top: 50px;
-  height: 80px;
+.email-icon, .github-icon, .velog-icon {
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
-
-.footer {
-  padding-top: 10px;
-}
+.velog-icon svg { width: 20px; fill: #20C997; }
+.github-icon svg { width: 20px; fill: #181717; }
